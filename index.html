@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flixo</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .sec1{
+            color: aliceblue;
+        }
+        header{
+            display: flex;
+            justify-content: stretch;
+        }
+        .nav, ul, a{
+            list-style: none;
+            display: flex; 
+            text-decoration: none;
+            flex-shrink: 0;
+            margin-left: 60px;
+            margin: 5px;
+            color: aliceblue;
+        }
+        nav a:hover{
+            background-color: rgb(37, 35, 35)0;
+            padding: 5px;
+        }
+        nav li{
+            margin-left:60px ;
+        }
+        header img{
+            height: 60px;
+            width: 100px;
+            margin-left: 23px;
+        }
+        .sec1{
+            background-image: url(https://th.bing.com/th/id/R.233270675e0b08fdca2ffa8eb464bbf1?rik=CY1UuAnVl3MOdg&pid=ImgRaw&r=0);
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+        .sec-cont{
+            margin: 100px;
+            padding: 200px;
+            padding-left: 45px;
+            font-size: large;
+            /* text-align: center; */
+        }
+        .search input{
+            background-color: #181717;
+            border-radius: 25px;
+    text-align: justify;
+    color: white;
+    margin-left: 50px;
+    font-size: 22px;
+    width: 25vw;
+    margin: 11px;
+        }
+        .signup{
+            background-color:rgb(229, 160, 13) ;
+            margin: 5px;
+            padding: 5px;
+            color: rgb(17, 17, 17);
+            border-radius: 15px;
+            font-weight:bold;
+        }
+        .nav_btn button{
+            background-color: rgb(37, 32, 32);
+            margin: 10px;
+            color: white;
+            padding: 10px;
+            border-radius: 15px;
+            margin-left: 40px;
+            font-weight: bold;
+            font-size: medium;
+        }
+        .nav_btn a:hover{
+            background-color: #ffffff;
+            color: #181717;
+        }
+        .watch_btn button{
+            color: rgb(243, 250, 255);
+            background-color: #b98e30;
+            padding: 15px;
+             margin: 30px;
+             border-radius: 50px;
+             font-size: medium;
+        }
+        .box{
+            /* height: 45px;
+            width: 80px; */
+            margin: 40px;
+            height: 140px;
+            width: 500px;
+        }
+        .boxes{
+            display: flex;
+        }
+        .box svg{
+            height: 35px;
+            width: 31px;
+            margin: 25px;
+            padding: 20px;
+        }
+        .box1{
+            svg{
+                color: rgb(252, 1, 189);
+            }
+        }
+        .box2{
+            svg{
+                color: rgb(55, 1, 252);
+            }
+        }
+        .box3{
+            svg{
+                color: rgb(160, 1, 252);
+            }
+        }
+        .box4{
+            svg{
+                color: rgba(252, 227, 1, 0.651);
+            }
+        }
+        .sec2{
+            color: black;
+            margin-bottom: 100px;
+        }
+        .sec3 {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: purple;
+}
+
+.secc3 {
+    margin: 60px;
+    height: auto;
+    width: 500px; 
+    padding: 100px;
+    flex: 1; 
+}
+
+.sec3 img {
+    height: 500px;
+    margin-left: 20px;
+}
+.sec4{
+    display: flex;
+    align-items: center;
+}
+.sec4 img{
+    height: 500px;
+    margin-left: 20px;
+}
+.secc4{
+    
+    margin: 60px;
+    height: auto;
+    width: 500px; 
+    padding: 100px;
+    flex: 1; 
+}
+.boxer{
+    display: flex;
+}
+.boxxer img{
+    height: 388px;
+    object-fit: cover
+}
+.sec6{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    background-color: rgb(240, 221, 196);
+}
+.sec6 img{
+    width: 550px;
+    display:flex ;
+    justify-content: center;
+}
+.sec7{
+    background-color: rgb(0, 0, 0);
+    color: rgb(182, 180, 180);
+    display: flex;
+    justify-content: space-between;
+}
+.table{
+    display:flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+.table table{
+    margin-left: 95px;
+}
+.foot{
+    background-color: black;
+    color: rgb(103, 108, 112);
+}
+    </style>
+</head>
+<body>
+    <div class="sec1">
+        <header>
+            <img src="https://th.bing.com/th/id/OIP.nmenR6PWEMvmIlfM3xiOigHaEK?w=294&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+            <div class="search">
+                <input type="text" name="" id="" placeholder="Find Moveis & TV">
+            </div>
+                <div class="nav">
+                <nav>
+                    <ul>
+                    <li><a href="">Free Movies & TV</a></li>
+                    <li><a href="">Live TV</a></li>
+                    <li><a href="">Feartures</a></li>
+                    <li><a href="">Download</a></li>
+                </ul>
+            </nav>
+                <div class="nav_btn">
+                    <button>Sign-in</button>
+                </div>
+            <button class="signup">Sign Up Free</button>
+        </div>
+    </header>
+    <div class="sec-cont">
+        <h1>Free Movies to Watch,<br> Anytime Anywhere.</h1><br>
+        <h3>The search is over! Let Flixo help you <br> find the perfect movie to watch tonight for free.</h3>
+        <div class="watch_btn">
+            <button>Watch Free</button>
+        </div>
+    </div>
+</div>
+<div class="sec2">
+    <div class="boxes">
+
+        <div class="box box1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 16 16"><path fill="currentColor" d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm0 15a6.96 6.96 0 0 1-2.769-.57l3.643-4.098A.503.503 0 0 0 9 10V8.5a.5.5 0 0 0-.5-.5C6.735 8 4.872 6.165 4.854 6.146A.5.5 0 0 0 4.5 6h-2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .276.447L4 10.809v2.936A6.992 6.992 0 0 1 1 8a6.97 6.97 0 0 1 .674-3H3.5c.133 0 .26-.053.354-.146l2-2A.5.5 0 0 0 6 2.5V1.29A6.989 6.989 0 0 1 8 1c1.1 0 2.141.254 3.067.706A2.98 2.98 0 0 0 10 3.999c0 .801.312 1.555.879 2.121a2.994 2.994 0 0 0 2.268.875c.216.809.605 2.917-.131 5.818a.466.466 0 0 0-.013.082a6.979 6.979 0 0 1-5.002 2.104z"/></svg>
+            <h2>Works Worldwide</h2>
+            <p>No other free streaming service delivers more content to and from more countries worldwide</p>
+        </div>
+        <div class="box box2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 344 384"><path fill="currentColor" d="M299 0h42v384h-42v-43h-43v43H85v-43H43v43H0V0h43v43h42V0h171v43h43V0zM85 299v-43H43v43h42zm0-86v-42H43v42h42zm0-85V85H43v43h42zm214 171v-43h-43v43h43zm0-86v-42h-43v42h43zm0-85V85h-43v43h43z"/></svg>
+            <h2>Thousands of Titles</h2>
+            <p>Choose from movies, shows, sports and music documentaries, AMC series, Live TV and more.</p></div>
+            <div class="box box3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 16 16"><path fill="currentColor" d="M15.93 7.75a1.25 1.25 0 0 0-.3-.51a.833.833 0 0 0-.394-.238c.074.117.141.252.191.396c.056.147.092.304.103.467a1.784 1.784 0 0 1 0 .424a1.005 1.005 0 0 0-.142-.292a1.193 1.193 0 0 0-.48-.383a.938.938 0 0 0-1.195.382c-.05.082-.09.171-.12.266c-1.182-1.968-3.309-3.271-5.741-3.271c-.124 0-.247.003-.369.01a8.217 8.217 0 0 0-2.231.313C5.19 4.88 4.62 4 2 4l.8 2.51a5.207 5.207 0 0 0-1.247 1.465L0 8s-.17 4 1 4h.54a5.276 5.276 0 0 0 1.445 1.589L3 16h1.08C5.39 16 6 16 6 15.25v-.39a8.256 8.256 0 0 0 3.051-.008L9 15.25c0 .75.62.75 1.94.75H12v-2.39a4.79 4.79 0 0 0 1.903-2.717c.057-.027.114-.024.172-.024s.115-.003.172-.01c.251-.046.48-.144.679-.283a1.65 1.65 0 0 0 .591-.765c.028-.093.049-.191.063-.292l.001-.01c.221-.262.372-.59.419-.951a1.776 1.776 0 0 0-.072-.822zm-12.42 0a.75.75 0 1 1 0 1.5a.75.75 0 0 1 0-1.5zM5.88 7a.502.502 0 0 1-.599-.247a.39.39 0 0 1 .296-.503a8.024 8.024 0 0 1 2.009-.22l.101-.001c.672 0 1.324.08 1.949.232c.126.024.262.182.262.372a.385.385 0 0 1-.019.119a.483.483 0 0 1-.346.247H9.38a7.198 7.198 0 0 0-1.706-.2h-.089c-.605 0-1.193.073-1.756.211zm8.7 2.93a1.16 1.16 0 0 1-.453.199L14 10.13v-.44c.165.125.374.2.6.2h.021zm.08-.68a.44.44 0 0 1-.459-.248a.607.607 0 0 1 .001-.566a.332.332 0 0 1 .43-.096a.48.48 0 0 1 .308.448v.001a1.457 1.457 0 0 1-.001.418a1.26 1.26 0 0 1-.282.022zM8 3H7v-.17h.25V1.74H7l.55-.55h.2v1.64H8V3z"/><path fill="currentColor" d="M7.5.75a1.5 1.5 0 1 1-.001 3.001A1.5 1.5 0 0 1 7.5.75zm0-.75a2.25 2.25 0 1 0 0 4.5a2.25 2.25 0 0 0 0-4.5z"/></svg>
+                <h2>Always 100% Free</h2>
+    <p>Welcome to instant gratification at its best. Watch now without any payment or subscription and end the search for free movie websites.</p></div>
+    <div class="box box4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24"><path fill="currentColor" d="M3.5 20q-.625 0-1.063-.438T2 18.5q0-.625.438-1.063T3.5 17H4V6q0-.825.588-1.413T6 4h14q.425 0 .713.288T21 5q0 .425-.288.713T20 6H6v11h4.5q.625 0 1.063.438T12 18.5q0 .625-.438 1.063T10.5 20h-7ZM15 20q-.425 0-.713-.288T14 19V9q0-.425.288-.713T15 8h6q.425 0 .713.288T22 9v10q0 .425-.288.713T21 20h-6Z"/></svg>
+        <h2>Device-Friendly</h2>
+    <p>Stream the good stuff from your favorite devices including Apple, Android, Smart TVs and more.</p></div>
+</div>
+</div>
+<div class="sec3">
+    <div class="secc3">
+        <h1>See what’s new on Pluto TV, Tubi, & more.</h1><br>
+        <h3>Select your favorite streaming services to discover more, search faster, and get curated recommendations—all without ever leaving Plex. Connect with friends to see who’s watching what, where.</h3>
+        <div class="watch_btn">
+            <button>Discover More Now</button>
+        </div>
+    </div>
+        <img src="https://www.plex.tv/wp-content/uploads/2024/02/watch-free-discover-image-1024x773.png" alt="">
+</div>
+<div class="sec4">
+    <img src="https://www.plex.tv/wp-content/uploads/2021/09/Continue_Watching_v2-2-1024x1088.png" alt="">
+    <div class="secc4">
+        <h1>It has never been easier to watch free movies online.</h1>
+        <br><p>Once you register for a free account with Plex, we’ll keep your place from screen to screen as long as you’re signed in. No matter what device you choose, your free movies will pick up where you left off with ease.</p>
+        <div class="watch_btn"><button>Watch Free</button></div>
+    </div>
+</div>
+<div class="sec5">
+    <div class="secc4">
+        <h1>Playing now on Flixo</h1>
+    </div>
+    <div class="boxer">
+        <div class="boxxer boxer1"><a href="https://watch.plex.tv/show/burb-patrol?_gl=1*mzjjdk*_gcl_au*MTg3ODYyOTYzMy4xNzMyOTQ0MDI1*_ga*MTIwMzc1NTA1Ni4xNzMyOTQ0MDI3*_ga_G6FQWNSENB*MTczMjk3MTM0Ni41LjEuMTczMjk3Mjg1Ni42MC4wLjA."><img src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2F2%2Fgracenote%2F2bd8db2f1417eb327939bdcf2271eb15.jpg" alt=""></a></div>
+        <div class="boxxer boxer2"><a href="https://watch.plex.tv/show/wiseguy?_gl=1*43n59d*_gcl_au*MTg3ODYyOTYzMy4xNzMyOTQ0MDI1*_ga*MTIwMzc1NTA1Ni4xNzMyOTQ0MDI3*_ga_G6FQWNSENB*MTczMjk3MTM0Ni41LjEuMTczMjk3Mjk2Mi4yNy4wLjA."><img src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FpDKRxvfp5vB3FrHZ0g3oHvnHQKG.jpg" alt=""></a></div>
+        <div class="boxxer boxer3"><a href="https://watch.plex.tv/show/pee-wees-playhouse?_gl=1*1tlu2s2*_gcl_au*MTg3ODYyOTYzMy4xNzMyOTQ0MDI1*_ga*MTIwMzc1NTA1Ni4xNzMyOTQ0MDI3*_ga_G6FQWNSENB*MTczMjk3MTM0Ni41LjEuMTczMjk3MzAzNi42MC4wLjA."><img src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2F0%2Fgracenote%2F01c535b41b038fe275e00a22a24653c2.jpg" alt=""></a></div>
+        <div class="boxxer boxer4"><a href="https://watch.plex.tv/show/the-hunger?_gl=1*1e4re51*_gcl_au*MTg3ODYyOTYzMy4xNzMyOTQ0MDI1*_ga*MTIwMzc1NTA1Ni4xNzMyOTQ0MDI3*_ga_G6FQWNSENB*MTczMjk3MTM0Ni41LjEuMTczMjk3MzA4MS4xNS4wLjA."><img src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2F8foXsJ7kEThYbCy6cOi3LJPATtv.jpg" alt=""></a></div>
+        <div class="boxxer boxer5"><a href="https://watch.plex.tv/show/the-transporter-2022?_gl=1*ll0jl1*_gcl_au*MTg3ODYyOTYzMy4xNzMyOTQ0MDI1*_ga*MTIwMzc1NTA1Ni4xNzMyOTQ0MDI3*_ga_G6FQWNSENB*MTczMjk3MTM0Ni41LjEuMTczMjk3MzExOC40Mi4wLjA."><img src="https://images.plex.tv/photo?size=medium-360&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2F3%2Fplex%2F32875dac-8854-431e-8324-d23c823ff7d3.jpg" alt=""></a></div>
+    </div>
+    <div style="text-align: center;" class="watch_btn"><button>See what’s On</button></div>
+</div>
+<div class="sec6">
+    <div class="sec6_h"><h1>
+        We’re compatible.</h1><br>
+        <p>Stream Plex from just about any phone, tablet, smart TV, gaming consoles, or PC.</p><br>
+        <img style="width: 300px;" src="https://www.plex.tv/wp-content/uploads/2020/03/avod-device-icons-1.png" alt="">
+        <div class="watch_btn"><button>Stream Free Now</button></div>
+    </div>
+    <img src="https://www.plex.tv/wp-content/uploads/2024/07/image-avod-devices-all-july_2024-1024x620.png" alt="">
+</div>
+<footer>
+    <div class="sec7">
+        <img style="height: 150px;" src="https://th.bing.com/th/id/OIP.nmenR6PWEMvmIlfM3xiOigHaEK?w=294&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Compony</th>
+                </tr>
+                <tr>
+                    <td>About</td>
+                </tr>
+                <tr>
+                    <td>Carrer</td>
+                </tr>
+                <tr>
+                    <td>Our Culture</td>
+                </tr>
+                <tr>
+                    <td>Giving</td>
+                </tr>
+                <tr>
+                    <td>Partner</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>Flixo Pass</th>
+                </tr>
+                <tr>
+                    <td>Go Premium</td>
+                </tr>
+                <tr>
+                    <td>Plexampt</td>
+                </tr>
+                <tr>
+                    <td>Place Lab</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th>Downloads
+                        </th>
+                </tr>
+                <tr><td>Plex Media Server
+                    </td></tr>
+                <tr><td>
+                    Plex
+                    
+                    </td></tr>
+                <tr><td>Plexamp
+                    
+                    </td></tr>
+                    <tr><td>Plex Photos
+                        </td></tr>
+                        <tr><td>Plex Dash
+                            </td></tr>
+                            <tr><td>Where to Watch</td></tr>
+            </table>
+            <table>
+                <tr>
+                    <th>Support
+                        
+                        </th>
+                </tr>
+                <tr>
+                    <td>Finding Help
+                        </td>
+                </tr>
+                <tr><td>Support Library
+                    </td></tr>
+                    <tr><td>Community Forums
+                        </td></tr>
+                        <tr><td>Community Guidelines
+                           </td></tr>
+                           <tr><td> Billing Questions
+                            </td></tr>
+                            <tr><td>Status
+                               </td></tr>
+                               <tr><td> Bug Bounty
+                               </td></tr>
+                               <tr><td> CordCutter
+                               </td></tr>
+                               <tr><td> Get in Touch</td></tr>
+            </table>
+        </div>
+        </div><hr>
+        <div class="foot">
+            <center>
+                &copy;Copy Right Claim 2024| Qazi Azan Uldin Project
+            </center>
+        </div>
+</footer>
+</body>
+</html>
